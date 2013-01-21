@@ -79,7 +79,7 @@ public class RhinoDebugServlet extends HttpServlet {
 		
 		//get rhino js ContextFactory
 		ContextFactory factory = ContextFactory.getGlobal();
-		String rhino = "transport=socket,suspend=false,address=9010,trace=true";
+		String rhino = "transport=socket,suspend=false,address=9000,trace=true";
 		RhinoDebugger debugger = new RhinoDebugger(rhino);
 		
 		//add RhinoDebugger to ContextFactory

@@ -20,7 +20,7 @@ public class DebugJS {
 
 	private static void remoteDebug() throws Exception {
 		ContextFactory factory = new ContextFactory();
-		String rhino = "transport=socket,suspend=true,address=9010,trace=true";
+		String rhino = "transport=socket,suspend=true,address=9000,trace=true";
 		RhinoDebugger debugger = new RhinoDebugger(rhino);
 		debugger.start();
 		factory.addListener(debugger);
