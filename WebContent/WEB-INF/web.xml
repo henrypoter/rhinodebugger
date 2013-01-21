@@ -20,17 +20,4 @@
     <servlet-name>RhinoDebugServlet</servlet-name>
     <url-pattern>/RhinoDebugServlet</url-pattern>
   </servlet-mapping>
- <!--  <servlet>
-    <description></description>
-    <display-name>BackendServlet</display-name>
-    <servlet-name>BackendServlet</servlet-name>
-    <servlet-class>com.mibridge.rhino.debug.BackendServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>BackendServlet</servlet-name>
-    <url-pattern>/BackendServlet</url-pattern>
-  </servlet-mapping>
-  <listener>
-    <listener-class>com.mibridge.rhino.debug.RhinoDebugListener</listener-class>
-  </listener> -->
 </web-app>
